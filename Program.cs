@@ -26,11 +26,11 @@ namespace PlaylistToCue
 
                 if (culturName.ToLower().Contains("italian")) {
                     
-                    Console.WriteLine("Inserire il percorso della dir contenente i files:");
+                    Console.WriteLine("Inserire il percorso della directory contenente i files:");
 
                 } else {
                     
-                    Console.WriteLine("Enter the path to the directory which contains the files:");
+                    Console.WriteLine("Enter directory path which contains the files:");
 
                 }
                 
@@ -91,7 +91,7 @@ namespace PlaylistToCue
 
                         } else {
                             
-                            Console.WriteLine("ERROR: In the provided path is not present any mp3 file or the name of the file format is invalid");
+                            Console.WriteLine("ERROR: In the provided path is not present any mp3 file or the filename format is not valid");
 
                         }
 
@@ -147,7 +147,7 @@ namespace PlaylistToCue
 
                                                 }
 
-                                                EsciDalProgramma();
+                                                EsciDalProgramma(culturName.ToLower());
 
                                                 return;
 
@@ -279,14 +279,25 @@ namespace PlaylistToCue
 
             } 
             
-            EsciDalProgramma();
+            EsciDalProgramma(culturName.ToLower());
 
         }
 
-        public static void EsciDalProgramma() {
+        public static void EsciDalProgramma(string culture) {
 
             Console.WriteLine("");
-            Console.WriteLine("Premere un tasto per uscire.");            
+
+            if (culture.Contains("italian")) {
+
+                Console.WriteLine("Premere un tasto per uscire.");  
+
+            }
+            else {
+
+                Console.WriteLine("Press any key to exit."); 
+
+            }
+
             Console.ReadKey();
 
         }
