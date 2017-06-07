@@ -8,7 +8,8 @@ UninstallDisplayIcon={app}\remove.ico
 Compression=lzma2
 SolidCompression=yes
 OutputDir=setup
-OutputBaseFilename=Setup-win-8.1-x64
+OutputBaseFilename=PlaylistToCue-win-8.1-x64
+SetupIconFile=ptc.ico
 
 [Languages]
 Name: en; MessagesFile: "compiler:Default.isl"
