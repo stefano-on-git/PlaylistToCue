@@ -16,7 +16,7 @@ Name: en; MessagesFile: "compiler:Default.isl"
 Name: it; MessagesFile: "compiler:Languages\Italian.isl"   
 
 [Files]
-Source: "bin\BPC\Debug\netcoreapp1.1\win81-x64\publish\*"; DestDir: "{app}\bin"
+Source: "bin\Debug\netcoreapp1.1\win81-x64\publish\*"; DestDir: "{app}\bin"
 Source: "ptc.ico"; DestDir: "{app}"
 Source: "remove.ico"; DestDir: "{app}"
 
