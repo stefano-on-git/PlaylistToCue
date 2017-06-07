@@ -1,6 +1,6 @@
 [Setup]
 AppName=Playlist To Cue
-AppVersion=1.0
+AppVersion=1.0.1
 ArchitecturesInstallIn64BitMode=x64
 DefaultDirName={pf}\Playlist To Cue
 DefaultGroupName=Playlist To Cue
