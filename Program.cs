@@ -164,7 +164,8 @@ namespace PlaylistToCue
 
                                             i--;
 
-/*                                          if (culturName.ToLower().Contains("italian")) {
+                                            /*
+                                            if (culturName.ToLower().Contains("italian")) {
                                                 
                                                 Console.WriteLine("ERRORE: Il file playlist.txt non rispetta il formato previsto");
 
@@ -176,7 +177,8 @@ namespace PlaylistToCue
                                             
                                             EsciDalProgramma();
 
-                                            return;*/
+                                            return;
+                                            */
 
                                         }
                                     }
