@@ -18,7 +18,7 @@ Name: it; MessagesFile: "compiler:Languages\Italian.isl"
 [Files]
 Source: "bin\Debug\netcoreapp1.1\win81-x64\publish\*"; DestDir: "{app}\bin"
 Source: "ptc.ico"; DestDir: "{app}"
-Source: "remove.ico"; DestDir: "{app}"
+Source: "ptc.ico"; DestDir: "{app}"
 
 [Icons]
 Name: "{app}\Playlist To Cue"; Filename: "{app}\bin\PlaylistToCue.exe"; IconFilename: "{app}\ptc.ico"
